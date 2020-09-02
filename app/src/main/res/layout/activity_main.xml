@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/historia_del_cafe"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_mensaje"
+        android:layout_width="308dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/tv_mensaje"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/lt_desplegable"
+        android:layout_width="278dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mensaje" />
+
+    <Button
+        android:id="@+id/bt_caracteristica"
+        android:layout_width="266dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="76dp"
+        android:background="#593535"
+        android:text="@string/bt_caracteristica"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lt_desplegable" />
+</androidx.constraintlayout.widget.ConstraintLayout>

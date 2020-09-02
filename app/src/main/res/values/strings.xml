@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Asesor de Café</string>
+    <string name="tv_mensaje">Seleciona un nombre científico para ver si descripción</string>
+    <string name="bt_caracteristica">CARACTERÍSTICA DEL CAFÉ!</string>
+</resources>

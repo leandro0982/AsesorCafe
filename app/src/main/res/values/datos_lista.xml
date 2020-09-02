@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="tipos_cafe">
+        <item>Arábica (Coffe Arábica)</item>
+        <item>Robusta (Coffe Canephora)</item>
+        <item>Libérica (Coffe Libérica)</item>
+        <item>Excelsa (Coffe Excelsa)</item>
+    </string-array>
+    
+</resources>
